@@ -1,36 +1,77 @@
-<html>
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-<form name="Ejercicio6" method="post" action="ejercicio.php"> 
-<table>
-<tr><td colspan="2" align="center"><h2>Datos de usuario</h2></td></tr>
-<tr><td>Nick de usuario: </td><td><input type="text" name="nick"></td></tr>
-<tr><td>Correo: </td><td><input type="email" name="correo"></td></tr>
-<tr><td>Contraseña: </td><td><input type="password" name="pass"></td></tr>
-<tr><td>Pais: </td>
-<td>
-<select name="pais">
-<option value="México">México</option>
-<option value="Chile">Chile</option>
-<option value="Argentina">Argentina</option>
-<option value="Ecuador">Ecuador</option>
-<option value="Italia">Italia</option>
-<option value="Brasil">Brasil</option>
-<option value="Grecia">Grecia</option>
-<option value="Uruguay">Uruguay</option>
-</select>
-</td></tr>
-<tr><td>Fecha de nacimiento: </td><td><input type="date" name="fecha"/></td></tr>
-<tr><td colspan="2"><input type="checkbox" name="check1" >Recibir noticias </td></tr>
-<tr><td colspan="2"><input type="checkbox" name="check2" >Recibir promociones </td></tr>
-<tr><td colspan="2"><input type="checkbox" name="check3" >Aceptar las Condiciones y la política de cookies</td></tr>
-<tr><td align="right"><input type="submit" value="Registrar" name="registrar"></td><td><input type="reset" name="cancelar" value="Cancelar"></td></tr>
-</table>
-</form>
-</table>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulario de Registro de Usuario</title>
+		<link rel="icon" href="../../assets/img/logo.png">
+		<link rel="apple-touch-icon" href="../../assets/img/logo-grande.png">
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<form name="Ejercicio6" method="post" action="ejercicio.php">
+			<table>
+				<tr>
+					<td colspan="2">
+						<h2>Datos de usuario</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>Nick de usuario:</td>
+					<td><input type="text" name="nick" placeholder="Ingrese su nombre de usuario" required></td>
+				</tr>
+				<tr>
+					<td>Correo:</td>
+					<td><input type="email" name="correo" placeholder="Ingrese su correo electrónico" required></td>
+				</tr>
+				<tr>
+					<td>Contraseña:</td>
+					<td><input type="password" name="pass" placeholder="Ingrese su contraseña" required></td>
+				</tr>
+				<tr>
+					<td>Pais:</td>
+					<td>
+						<select name="pais">
+							<option value="México">México</option>
+							<option value="Chile">Chile</option>
+							<option value="Argentina">Argentina</option>
+							<option value="Ecuador">Ecuador</option>
+							<option value="Italia">Italia</option>
+							<option value="Brasil">Brasil</option>
+							<option value="Grecia">Grecia</option>
+							<option value="Uruguay">Uruguay</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha de nacimiento:</td>
+					<td><input type="date" name="fecha"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="check1" id="check1">
+						<label for="check1">Recibir noticias</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="check2" id="check2">
+						<label for="check2">Recibir promociones</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="check3" id="check3" required>
+						<label for="check3">Aceptar las Condiciones y la política de cookies</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<input type="submit" value="Registrar" name="registrar">
+						<input type="reset" name="cancelar" value="Cancelar">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
