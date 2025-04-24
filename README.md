@@ -16,7 +16,7 @@ El script PHP procesa los datos ingresados en el formulario:
 
 Esta actividad demuestra habilidades en la creación de formularios web, validación de datos del usuario y procesamiento en el servidor, proporcionando una base sólida para aplicaciones web que requieren la recolección y manejo de información de los usuarios.
 
-**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_08.com](https://alejandrovillegas.net/projects/exercise-08/index.html)
+**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_08.com](https://www.alejandrovillegas.dev/projects/exercise-08/index.html)
 
 # 📌 Información de la Actividad
 
@@ -28,7 +28,7 @@ Esta actividad ha sido desarrollado como parte del portafolio de soluciones tecn
 
 - **Fecha de Desarrollo**: 30 de agosto de 2018
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 ## 🔧 Guía de Instalación y Configuración de la Actividad
 
